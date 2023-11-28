@@ -1,2 +1,1 @@
 # restaurant
-A restaurant page

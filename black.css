@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgba(0, 0, 0, 0.903);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+  
+  }
+  .logo {
+    color: #FED049;
+    font-size: 30px;
+    font-family: Sacramento;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  nav ul li a:hover {
+    color: #FED049;
+    transition: .3s;
+  }
+  nav button {
+    border: none;
+    background-color: #FED049;
+    padding: 12px 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  nav button:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+  }
+  .main-div {
+    margin-top: 4rem;
+    display: flex;
+  }
+  .text-div h1{
+    color: #fff;
+    font-family: Sacramento;
+    font-size: 150px;
+    font-weight: light;
+  }
+  .text-div p {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  .but {
+    margin-top: 30px;
+    border: none;
+    background-color: #FED049;
+    padding: 12px 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .button {
+    margin-top: 30px;
+    border: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.903);
+    color: #FED049;
+  }
+  
+  @media (max-width: 1000px) {
+   .main-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+   }
+   nav ul {
+    display: none;
+   }
+   .text-div{
+    padding-top: 100px;
+   }
+   .photo-div{
+    padding-top: 50px;
+   } 
+   .text-div h1 {
+    font-size: 100px;
+   }
+   .photo-div img {
+    width: 75%;
+  }
+  }
